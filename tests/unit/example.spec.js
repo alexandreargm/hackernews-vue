@@ -7,6 +7,8 @@ describe('HelloWorld.vue', () => {
     const wrapper = shallowMount(HelloWorld, {
       propsData: { msg }
     })
+
+    debugger
     expect(wrapper.text()).toMatch(msg)
   })
 })
